@@ -1,0 +1,47 @@
+#top_row {
+  position: relative;
+  width: 100%;
+  height: 10%;
+  float: left;
+  background-color: purple;
+}
+
+#window_container {
+  position: relative;
+  width:100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#window_html {
+  background-color: red;
+}
+
+#window_css {
+  background-color: blue;
+}
+
+#window_js {
+  background-color: green;
+}
+
+#window_output {
+  background-color: yellow;
+}
+
+.window {
+  flex: 1 1 50%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
