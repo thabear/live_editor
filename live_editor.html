@@ -14,20 +14,32 @@
   <div id='top_row'>
 
   </div>
+
   <div id='window_container'>
-    <div class='window' id='window_html'>
-      <textarea></textarea>
 
+    <div id='left_pane'>
+      <div class='window' id='window_html'>
+        <textarea></textarea>
+      </div>
+      <div class='vertical_drag'></div>
+      <div class='window' id='window_css'>
+        <textarea></textarea>
+      </div>
     </div>
-    <div class='window' id='window_css'>
-      <textarea></textarea>
-    </div>
-    <div class='window' id='window_js'>
-      <textarea></textarea>
-    </div>
-    <div class='window' id='window_output'>
 
+    <div class='horizontal_drag'></div>
+
+    <div id='right_pane'>
+      <div class='window' id='window_js'>
+        <textarea></textarea>
+      </div>
+      <div class='vertical_drag'></div>
+      <div class='window' id='window_output_container'>
+        <iframe id='window_output'></iframe>
+      </div>
     </div>
+
   </div>
+
 </body>
 </html>
